@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      {/* <Button className='bg-green-500 hover:bg-red-500'>Click me</Button> */}
+      <Button variant="ghost">Click me</Button>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
